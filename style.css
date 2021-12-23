@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+header{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    padding: 10px;
+}
+
+.menu div{
+    background-color: rgb(95, 91, 91);;
+    width: 20px;
+    height: 2px;
+    border-radius: 5px;
+    margin: 6px 10px;
+}
+
+.linkSala{
+    padding: 15px 10px;
+    font-size: 10px;
+}
+
+.linkSala h1{
+    color: rgb(95, 91, 91);;
+}
+
+.linkSala a :hover{
+    border-bottom: solid 2px black;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    margin-left: 150px;
+}
+
+.opcoes div{
+    padding: 10px;
+    height: 100%;
+}
+
+.opcoes a{
+    color: rgb(95, 91, 91);
+}
+
+.opcoes :hover{
+    background: rgba(189, 187, 187, 0.596);
+    border-bottom: solid 1px black;
+}
+
+.opcoes a :hover{
+    border-bottom: none;
+    background: transparent;
+}
+
+
+
+#contorno{
+    display: flex;
+    flex-direction: row;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 400px;
+    background: transparent;
+}
+
+#i :hover{
+    background: #dcdcdc;
+}
+
+.menuD{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40px;
+    height: 19px;
+    padding: 1px;
+    margin: 7px;
+}
+
+.menuD div{
+    background: rgb(95, 91, 91);;
+    width: 4px;
+    height: 4px;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+
+
+#perfil{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#perfil img{
+    width: 30px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#img-sala{
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+#img-sala img{
+    filter: brightness(50%);
+    border-radius: 10px;
+    width: 1000px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#mnu-atividades{
+    border: solid rgb(182, 179, 179) 1px;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 15%;
+    padding: 10px;
+}
+
+#mnu-atividades h5{
+    font-size: 1.09em;
+    color: rgb(95, 91, 91);
+    padding-bottom: 20px;
+}
+
+#mnu-atividades p{
+    color: rgba(95, 91, 91, 0.836);
+}
+
+#mnu-atividades a{
+    padding: 5px;
+    margin-left: 60%;
+    font-weight: bold;
+    color: rgb(49, 47, 47);
+}
+
+#mnu-atividades a :hover{
+    background: #8b8a8a;
+}
+
+.main{
+    background: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: solid rgb(182, 179, 179) 1px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 56.9%;
+    height: 50px;
+
+}
+
+#text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#text div{
+    width: 90%;
+}
+
+#text div input{
+    padding: 8px;
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+#text img{
+    width: 40px;
+    border-radius: 20px;
+    margin: 5px;
+}
